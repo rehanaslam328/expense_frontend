@@ -1,0 +1,149 @@
+/** @format */
+@import "~antd/dist/antd.css";
+@import "assets/css/global.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  height: 100%;
+}
+
+/* underline hover style */
+.hover-underline {
+  display: inline-block;
+  position: relative;
+  color: #0087ca;
+}
+
+.hover-underline:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  /* right: 0; */
+  background-color: #0087ca;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.logo {
+  height: 32px;
+  margin: 16px;
+  background: #408dfb;
+}
+
+.uiux_sidebar {
+  margin-top: 52px;
+}
+
+.flex_root {
+  display: flow-root;
+}
+
+.login-form-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .ant-drawer-open, */
+/* .ant-drawer-mask, */
+.ant-drawer-content-wrapper {
+  top: 55px;
+}
+
+/* organization step form style */
+.steps-content {
+  min-height: 750px;
+  margin-top: 20px;
+  padding: 20px 30px;
+  text-align: left;
+  background-color: #fafafa;
+  border: 1px dashed #e9e9e9;
+  border-radius: 5px;
+}
+
+.steps-action {
+  margin-top: 24px;
+  display: flex;
+  justify-content: flex-end;
+}
+[data-theme="dark"] .steps-content {
+  /* margin-top: 16px; */
+  border: 1px dashed #303030;
+  background-color: rgba(255, 255, 255, 0.04);
+  color: rgba(255, 255, 255, 0.65);
+  /* padding-top: 80px; */
+}
+
+.mb {
+  margin-bottom: 0px;
+}
+.layout-display {
+  height: 100vh !important;
+  /* min-height: 100vh !important; */
+  justify-content: center;
+}
+.main-content {
+  padding-top: 80px;
+  min-height: 100vh;
+  /* margin: 0 16px; */
+}
+.footer {
+  text-align: center;
+  padding: 0;
+}
+.not-found {
+  margin: auto;
+}
+.ant-collapse-content > .ant-collapse-content-box {
+  padding: 0px;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+  color: black;
+  background-color: #f3f3fa;
+  font-weight: 700;
+}
+.ant-collapse > .ant-collapse-item > .ant-collapse-header:hover {
+  color: #0087ca;
+}
+.ant-list-header > h3 {
+  font-weight: 500;
+  font-size: 14px;
+  color: #7a7891;
+}
+.ant-list-item-meta-description > a {
+  color: #2e3151;
+  font-size: 13px;
+}
+.ant-list-item-meta-description > a:hover {
+  color: #0087ca;
+}
+.ant-list-sm .ant-list-item {
+  padding: 3px 0px;
+  border-bottom: 0px;
+}
+.listTitle {
+  display: flex;
+}
+.listIcon {
+  padding: 3px 6px 0px 0px;
+  border-bottom: 2px solid blue;
+  color: #7a7891;
+}
+.ant-list-split .ant-list-header {
+  border-bottom: 0px;
+}

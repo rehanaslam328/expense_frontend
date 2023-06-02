@@ -1,0 +1,1 @@
+export const No_Entity = () => { return <h3 style={{ textAlign: "center", padding: "2px" }}> No Entity Selected</h3 > }

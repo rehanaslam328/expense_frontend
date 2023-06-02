@@ -1,0 +1,62 @@
+.login-form-forget {
+  float: right;
+}
+
+.grid_class {
+  display: grid;
+  place-items: center;
+}
+
+.img_logo {
+  border: 2px rgb(237, 216, 188) solid;
+  border-radius: 50%;
+  margin: 0px !important;
+}
+
+.hover_avatar:hover {
+  background-color: rgba(199, 244, 244, 0.733);
+}
+
+.ant-image-mask {
+  border-radius: 50% !important;
+}
+.upload-wrapper {
+  position: relative;
+}
+.upload-wrapper .anticon {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: #ccc;
+  padding: 4px 5px;
+  border-radius: 50%;
+}
+
+.ant-layout-sider,
+.ant-menu,
+.ant-menu-item,
+.ant-menu-submenu-active,
+.ant-menu-submenu-popup,
+.ant-layout-sider-trigger,
+.ant-menu-item a,
+.ant-menu-light {
+  background: #f3f3fa !important;
+  color: #2e3151;
+}
+
+.ant-layout {
+  background-color: white;
+}
+
+.ribbon_tr {
+  transform: rotate(-23deg);
+}
+
+.pr-color,
+.pr-color:hover,
+.pr-color:focus {
+  background-color: #408dfb;
+  border-color: #408dfb;
+  color: white;
+}

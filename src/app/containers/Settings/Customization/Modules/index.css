@@ -1,0 +1,25 @@
+.ant-list-items {
+    margin: 15px;
+    padding: 0px;
+}
+
+.ant-typography {
+    margin-left: 30px;
+}
+
+.ant-list-item-meta-description>a {
+    color: #0a0a0c;
+    font-size: 14px;
+}
+
+.ant-divider-horizontal {
+    display: flex;
+    clear: both;
+    width: 100%;
+    min-width: 100%;
+    margin: 9px;
+    margin-top: 9px;
+    margin-right: 0px;
+    margin-bottom: 9px;
+    margin-left: 0px;
+}
